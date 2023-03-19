@@ -19,7 +19,7 @@ class Phones(models.Model):
 
 
 class Brand(models.Model):
-    name = models.CharField(max_length=700)
+    name = models.CharField(max_length=100)
 
 
     def __str__(self):
